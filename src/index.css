@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+
+
+@theme{
+  --color-background-primary:oklch(96.12% 0.034 98.06);
+  --color-background-secondary:oklch(91.77% 0.046 99.20);
+  --color-background-tertiary:oklch(75.92% 0.055 99.26);
+  --color-font-primary:oklch(41.21% 0.031 95.08);
+  --font-headings:"Playfair Display", serif;
+  --font-body:"Source Code Pro", monospace;
+
+}
