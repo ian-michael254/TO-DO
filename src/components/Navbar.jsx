@@ -27,7 +27,7 @@ function Navbar() {
 
         {/*MOBILE LINKS*/}
         {isOpen ? (
-            <ul className="absolute top-30 right-0 bg-violet-950 w-full h-screen flex flex-col items-center justify-center space-y-6 md:hidden -z-50">
+            <ul className="absolute top-30 right-0 bg-violet-950 w-full h-screen flex flex-col items-center justify-center space-y-6 md:hidden">
                 <li className="py-2 px-2 transition-all ease-in-out delay-300 duration-300 hover:rounded-md hover:bg-violet-800"><a className="text-slate-100 text-lg " href="#">Home</a></li>
                 <li className="py-2 px-2 transition-all ease-in-out delay-300 duration-300 hover:rounded-md hover:bg-violet-800"><a className="text-slate-100 text-lg " href="#">About</a></li>
                 <li className="py-2 px-2 transition-all ease-in-out delay-300 duration-300 hover:rounded-md hover:bg-violet-800"><a className="text-slate-100 text-lg " href="#">Plans</a></li>
